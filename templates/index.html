@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Pokenea del día{% endblock %}
+
+{% block extra_styles %}
+        <style>
+            .info {
+                margin: 15px 0;
+            }
+            .info strong {
+                color: #555;
+            }
+            a {
+                display: inline-block;
+                margin-top: 20px;
+                padding: 10px 20px;
+                background-color: #4CAF50;
+                color: white;
+                text-decoration: none;
+                border-radius: 5px;
+            }
+            a:hover {
+                background-color: #45a049;
+            }
+        </style>
+{% endblock %}
+
+{% block content %}
+            <h1>🏅 Pokenea del día 🏅</h1>
+            <div class="info">
+                <strong>Nombre:</strong> {{ pokenea.nombre }}
+            </div>
+            <div class="info">
+                <strong>Altura:</strong> {{ pokenea.altura }} m
+            </div>
+            <div class="info">
+                <strong>Habilidad:</strong> {{ pokenea.habilidad }}
+            </div>
+            <div class="info">
+                <strong>Docker Container ID:</strong> {{ pokenea.container_id }}
+            </div>
+            <a href="/imagen&frase/">Ver imagen y frase de otro pokenea</a>
+{% endblock %}
+

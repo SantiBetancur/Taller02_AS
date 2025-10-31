@@ -1,0 +1,85 @@
+{
+
+    "pokeneas": [
+        {
+            "id": 1,
+            "nombre": "Pikachu",
+            "altura": 0.4,
+            "habilidad": "Impactrueno",
+            "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
+            "frase_filosofica": "Si existiera la elección perfecta, mis truenos serían una línea recta"
+        },
+        {
+            "id": 2,
+            "nombre": "Charizard",
+            "altura": 1.7,
+            "habilidad": "Lanzallamas",
+            "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+            "frase_filosofica": "El poder del fuego no es solo luz, es energía"
+        },
+        {
+            "id": 3,
+            "nombre": "Bulbasaur",
+            "altura": 0.7,
+            "habilidad": "Planta",
+            "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+            "frase_filosofica": "Las semillas germinan en la tierra, y las plantas crecen en la luz"
+        },
+        {
+            "id": 4,
+            "nombre": "Squirtle",
+            "altura": 0.5,
+            "habilidad": "Agua",
+            "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+            "frase_filosofica": "Si controlas el agua, controlas la vida"
+        },
+        {
+            "id": 5,
+            "nombre": "Caterpie",
+            "altura": 0.3,
+            "habilidad": "Insecto",
+            "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png",
+            "frase_filosofica": "Cada transformación es una oportunidad para aprender"
+        },
+        {
+            "id": 6,
+            "nombre": "Weedle",
+            "altura": 0.3,
+            "habilidad": "Insecto",
+            "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png",
+            "frase_filosofica": "Los problemas más grandes son aquellos que parecen pequeños"
+        },
+        {
+            "id": 7,
+            "nombre": "Pidgey",
+            "altura": 0.3,
+            "habilidad": "Volador",
+            "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png",
+            "frase_filosofica": "Volar alto no es solo sobre el cielo, es sobre el corazón"
+        },
+        {
+            "id": 8,
+            "nombre": "Rattata",
+            "altura": 0.3,
+            "habilidad": "Normal",
+            "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png",
+            "frase_filosofica": "El normal no es solo un color, es un estado de espíritu"
+        },
+        {
+            "id": 9,
+            "nombre": "Eevee",
+            "altura": 0.3,
+            "habilidad": "Normal",
+            "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
+            "frase_filosofica": "El cambio es la única constante en la vida"
+        },
+        {
+            "id": 10,
+            "nombre": "Snorlax",
+            "altura": 2.1,
+            "habilidad": "Normal",
+            "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/143.png",
+            "frase_filosofica": "La felicidad no es una meta, es un viaje"
+        }
+    ]
+}

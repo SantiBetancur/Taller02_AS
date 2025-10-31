@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block title %}Detalle de {{ pokenea.nombre }}{% endblock %}
+
+{% block extra_styles %}
+        <style>
+            .imagen {
+                text-align: center;
+                margin: 20px 0;
+            }
+            .imagen img {
+                max-width: 300px;
+                height: auto;
+                border-radius: 10px;
+            }
+            .frase {
+                margin-top: 20px;
+                padding: 15px;
+                background-color: #e8f5e9;
+                border-left: 4px solid #4CAF50;
+                font-style: italic;
+                border-radius: 5px;
+            }
+            .frase::before {
+                content: "💬 ";
+            }
+            a {
+                display: inline-block;
+                margin-top: 20px;
+                padding: 10px 20px;
+                background-color: #2196F3;
+                color: white;
+                text-decoration: none;
+                border-radius: 5px;
+            }
+            a:hover {
+                background-color: #1976D2;
+            }
+        </style>
+{% endblock %}
+
+{% block content %}
+            <h1>✨ {{ pokenea.nombre }} ✨</h1>
+            <div class="imagen">
+                <img src="{{ pokenea.imagen }}" alt="{{ pokenea.nombre }}">
+            </div>
+            <div class="frase">
+                {{ pokenea.frase_filosofica }}
+                <br>
+                <strong>Docker Container ID:</strong> {{ pokenea.container_id }}
+            </div>
+            <a href="/">Volver al inicio</a>
+{% endblock %}
+
